@@ -91,7 +91,7 @@ t1 AS (
     COUNT(DISTINCT InvoiceNo) AS frequency,
     MAX(DATE(InvoiceDate)) AS last_purchase_date,
     SUM(Quantity * UnitPrice) AS monetary
-  FROM tc-da-1.turing_data_analytics.rfm 
+  FROM turing_data_analytics.rfm 
   WHERE
     CustomerID IS NOT NULL
     AND InvoiceDate >= '2010-12-01' AND InvoiceDate < '2011-12-01'
