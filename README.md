@@ -9,7 +9,7 @@ An RFM-based customer segmentation project that identifies high-value, at-risk, 
 
 ---
 
-![Dashboard](images/dashboard_example.png)
+![Dashboard](dashboard/dashboard_example.png)
 
 ---
 
